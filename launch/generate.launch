@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<node pkg="benchmark_pipelines"  type="generate_queries" name="benchmark" output="screen">
+  <rosparam command="load" file="$(find benchmark_pipelines)/config/config.yaml"/>
+</node>
+
+</launch>
+
